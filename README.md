@@ -26,11 +26,11 @@ import pysearchbin
 
 results = pysearchbin.search_hex(file_path, "01020304????07")
 results = pysearchbin.search_text(file_path, "aaaaaaa")
-if len(results) > 0:
+if len(results) >= 0:
     pass
 
 result = pysearchbin.search_one_hex(file_path, "aaaaaaa")
-if result > 0:
+if result >= 0:
     pass
 
 ```

@@ -20,7 +20,7 @@ if result > 0:
     pass
 
 
-license: BSD 2-Clause License, 2012, Sepero
+license: BSD 2-Clause License, 2023, hetima
 license: http://www.opensource.org/licenses/BSD-2-Clause
 """
 

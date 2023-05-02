@@ -10,13 +10,13 @@ pip install git+https://github.com/hetima/pysearchbin.git
 
 ## Usage
 ```
-search_hex(file_path: str, pattern, max_matches: int = 999, start: int = 0, end: int = 0, bsize: int = 0) => list[int]
+search_hex(file_path, pattern, max_matches = 999, start = 0, end = 0, bsize = 0) => list[int]
 
-search_text(file_path: str, pattern, max_matches: int = 999, start: int = 0, end: int = 0, bsize: int = 0) => list[int]
+search_text(file_path, pattern, max_matches = 999, start = 0, end = 0, bsize = 0) => list[int]
 
-search_one_hex(file_path: str, pattern, start: int = 0, end: int = 0, bsize: int = 0) => int
+search_one_hex(file_path, pattern, start = 0, end = 0, bsize = 0) => int
 
-search_one_text(file_path: str, pattern, start: int = 0, end: int = 0, bsize: int = 0) => int
+search_one_text(file_path, pattern, start = 0, end = 0, bsize = 0) => int
 ```
 examples:
 ```

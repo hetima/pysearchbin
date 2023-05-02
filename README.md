@@ -18,14 +18,18 @@ search_one_hex(file_path, pattern, start = 0, end = 0, bsize = 0) => int
 
 search_one_text(file_path, pattern, start = 0, end = 0, bsize = 0) => int
 ```
+
 examples:
+
 ```
-results = search_hex(file_path, "01020304????07")
-results = search_text(file_path, "aaaaaaa")
+import pysearchbin
+
+results = pysearchbin.search_hex(file_path, "01020304????07")
+results = pysearchbin.search_text(file_path, "aaaaaaa")
 if len(result) > 0:
     pass
 
-result = search_one_hex(file_path, "aaaaaaa")
+result = pysearchbin.search_one_hex(file_path, "aaaaaaa")
 if result > 0:
     pass
 
